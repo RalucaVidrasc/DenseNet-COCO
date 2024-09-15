@@ -22,7 +22,6 @@ This project contains the training and evaluation of different Densenet models o
   ![denseNet121-confMat](https://github.com/user-attachments/assets/499b8ab1-797b-4f3e-9430-2ee71e051f05)
 ![denseNet169-confMat](https://github.com/user-attachments/assets/fa48eda0-b53f-487d-9c9b-be428c2c70e1)
 
-
     In conclusion, DenseNet-121 and DenseNet-169 are neural network architectures used for object recognition, performing well on the COCO dataset. DenseNet-121, with 121 layers, is more computationally efficient and easier to train, but exhibits significant variability in accuracy across individual classes, indicating the need for further tuning.\
     The multi-layered DenseNet-169 offers higher representational capacity and better performance on complex classes, but requires larger resources and longer training time. Its accuracy is more stable than DenseNet-121, although fluctuations persist.\
     The choice between the two architectures depends on resource constraints and application requirements: DenseNet-121 is better suited for efficiency, while DenseNet-169 offers a marginal advantage in recognizing complex features.
